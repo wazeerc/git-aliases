@@ -11,7 +11,7 @@
 | `gb` | `git branch` | List branches |
 | `gba` | `git branch -a` | List all branches (including remote) |
 | `gbd` | `git branch -d` | Delete branch |
-| `gcb` | `git checkout -b` | Create and checkout new branch |
+| `gcb` | `git checkout -b` | Create and checkout new branch (Use `Remove-Alias gcb -Force` to remove the default pwsh alias `Get-Clipboard`) |
 | `gcmsg` | `git commit -m` | Commit with message |
 | `gco` | `git checkout` | Checkout branch/file |
 | `gcp` | `git cherry-pick` | Cherry-pick commit |
